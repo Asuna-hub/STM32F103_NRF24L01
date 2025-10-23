@@ -9,17 +9,14 @@
 <a name="english"></a>
 ## 🇺🇸 English Version
 
-### Project Goal
-Implementing reliable wireless communication between multiple devices using NRF24L01 modules based on STM32F103C8T6 microcontroller.
-
-### 📋 Description
-This project provides a complete driver for NRF24L01 wireless transceiver modules working with STM32F103C8T6 (Blue Pill board). The implementation includes robust error handling, power management, and easy-to-use API for embedded applications.
+### 📋 Project Description
+This project provides a complete driver for NRF24L01 wireless transceiver modules working with STM32F103C8T6. The implementation includes robust error handling, power management, and easy-to-use API for embedded applications.
 
 ### 🛠 Hardware
 - **MCU**: STM32F103C8T6 (Blue Pill)
 - **Wireless Module**: NRF24L01+
 - **IDE**: Keil uVision 5
-- **Toolchain**: ARM Compiler Version 6
+- **Compiler**: ARM Compiler v6
 - **Debugger**: ST-Link V2
 - **Communication**: SPI 1
 
@@ -29,7 +26,6 @@ This project provides a complete driver for NRF24L01 wireless transceiver module
 - 🔋 **Power management** - Low power modes support
 - 🛡 **Error detection** - CRC and automatic retransmission
 - 📡 **Multi-channel** - 125 RF channels support
-- 🔌 **Easy configuration** - Simple API for quick setup
 
 ### 🚀 Quick Start
 
@@ -37,3 +33,35 @@ This project provides a complete driver for NRF24L01 wireless transceiver module
 ```bash
 git clone https://github.com/Asuna-hub/STM32F103_NRF24L01.git
 cd STM32F103_NRF24L01
+```
+</div>
+
+<a name="russian"></a>
+
+## RU Russian Version
+
+### 📋 Описание Проекта
+Этот проект предоставляет полный драйвер для беспроводных transceiver модулей NRF24L01, работающих с STM32F103C8T6. Реализация включает надежную обработку ошибок, управление питанием и простой в использовании API для встраиваемых приложений.
+
+### 🛠 Оборудование
+- **Микроконтроллер**: STM32F103C8T6 (Blue Pill)
+- **Беспроводной модуль**: NRF24L01+
+- **Среда разработки**: Keil uVision 5
+- **Компилятор**: ARM Compiler v6
+- **Отладчик**: ST-Link V2
+- **Связь**: SPI 1
+
+### ✨ Возможности
+- 🔄 **Двусторонняя связь** - Поддержка режимов передатчика и приемника  
+- 📶 **Несколько скоростей передачи** - 250кбит/с, 1Мбит/с, 2Мбит/с  
+- 🔋 **Управление питанием** - Поддержка режимов низкого энергопотребления  
+- 🛡 **Обнаружение ошибок** - CRC и автоматическая повторная передача  
+- 📡 **Многоканальность** - Поддержка 125 RF каналов
+
+### 🚀 Быстрый старт
+
+#### 1. Клонируйте репозиторий
+```bash
+git clone https://github.com/Asuna-hub/STM32F103_NRF24L01.git
+cd STM32F103_NRF24L01
+```
