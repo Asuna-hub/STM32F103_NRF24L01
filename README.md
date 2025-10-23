@@ -13,12 +13,13 @@
 This project provides a complete driver for NRF24L01 wireless transceiver modules working with STM32F103C8T6. The implementation includes robust error handling, power management, and easy-to-use API for embedded applications.
 
 ### 🛠 Hardware
-- **MCU**: STM32F103C8T6 (Blue Pill)
+- **MCU**: STM32F103C8T6
 - **Wireless Module**: NRF24L01+
 - **IDE**: Keil uVision 5
 - **Compiler**: ARM Compiler v6
 - **Debugger**: ST-Link V2
 - **Communication**: SPI 1
+- **Library**: CMSIS
 
 ### ✨ Features
 - 🔄 **Bidirectional communication** - Support for both transmitter and receiver modes
@@ -44,12 +45,13 @@ cd STM32F103_NRF24L01
 Этот проект предоставляет полный драйвер для беспроводных transceiver модулей NRF24L01, работающих с STM32F103C8T6. Реализация включает надежную обработку ошибок, управление питанием и простой в использовании API для встраиваемых приложений.
 
 ### 🛠 Оборудование
-- **Микроконтроллер**: STM32F103C8T6 (Blue Pill)
+- **Микроконтроллер**: STM32F103C8T6
 - **Беспроводной модуль**: NRF24L01+
 - **Среда разработки**: Keil uVision 5
 - **Компилятор**: ARM Compiler v6
 - **Отладчик**: ST-Link V2
 - **Связь**: SPI 1
+- **Библиотека**: CMSIS
 
 ### ✨ Возможности
 - 🔄 **Двусторонняя связь** - Поддержка режимов передатчика и приемника  
