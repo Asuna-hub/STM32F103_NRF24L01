@@ -17,5 +17,6 @@ void RCC_Init(void){
 	RCC->CFGR |= RCC_CFGR_PPRE1_DIV2 | RCC_CFGR_PPRE2_DIV1;
 	RCC->CFGR |= RCC_CFGR_ADCPRE_DIV6;
 	
-	RCC->CFGR |= RCC_CFGR_SW_PLL;
+	RCC->CFGR |= RCC_CFGR_SW_PLL; // Редактирую твои файлы
+	
 }
